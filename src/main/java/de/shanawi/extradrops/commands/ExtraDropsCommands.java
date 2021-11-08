@@ -20,9 +20,17 @@ public class ExtraDropsCommands implements CommandExecutor {
         Player player = (Player) sender;
         if(cmd.getName().equalsIgnoreCase("gimmeSterni")) {
             player.sendMessage(Extradrops.PREFIX + "Du hast nun Sterni!");
+            player.getInventory().addItem(itemManager.Sterni);
+            return true;
+        }
+        if(cmd.getName().equalsIgnoreCase("gimmeSterniCoupon")) {
+            player.sendMessage(Extradrops.PREFIX + "Du hast nun ein Coupon!");
             player.getInventory().addItem(itemManager.SterniCoupon);
             return true;
         }
+
+
+
         return true;
     }
 }

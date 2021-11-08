@@ -6,5 +6,8 @@ authors: [ Shanawi ]
 website: https://github.com/Shanawi
 commands:
   gimmeSterni:
-    description: Gibt dir Sterni
+    description: Gibt dir ein Sterni
     usage: /gimmeSterni
+  gimmeSterniCoupon:
+    description: Gibt dir ein Sterni-Coupon
+    usage: /gimmeSterniCoupon

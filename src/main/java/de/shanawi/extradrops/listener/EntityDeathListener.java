@@ -21,7 +21,7 @@ public class EntityDeathListener implements Listener {
             int chance = r.nextInt(100);
 
             if(chance < 5){
-                e.getLocation().getWorld().dropItem(e.getLocation(), itemManager.SterniCoupon);
+                e.getLocation().getWorld().dropItem(e.getLocation(), itemManager.Sterni);
             }
 
         }

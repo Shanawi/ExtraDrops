@@ -16,7 +16,7 @@ public final class Extradrops extends JavaPlugin {
         // Plugin startup logic
         itemManager.init();
         getCommand("gimmeSterni").setExecutor(new ExtraDropsCommands());
-
+        getCommand("gimmeSterniCoupon").setExecutor(new ExtraDropsCommands());
         getServer().getPluginManager().registerEvents(new EntityDeathListener(), this);
         log("§aPlugin enabled!");
     }
