@@ -1,0 +1,10 @@
+name: ExtraDrops
+version: '${project.version}'
+main: de.shanawi.extradrops.Extradrops
+api-version: 1.17
+authors: [ Shanawi ]
+website: https://github.com/Shanawi
+commands:
+  gimmeSterni:
+    description: Gibt dir Sterni
+    usage: /gimmeSterni
